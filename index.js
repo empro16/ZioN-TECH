@@ -5,7 +5,7 @@ const TeknoEvreniSmsBomb = require('./modules/sms.js');
 
 title('Hosgeldiniz');
 
-let telefon = rl.question('Telefon Numarasi Giriniz +90: ' .green);
+let telefon = rl.question('Saldırılacak Numara ? : ' .green);
 if (telefon.length != 10) {
     console.log('Telefon Numarasi 10 Haneli Olmalidir. Ex: 5401234521'.red);
     process.exit(1);
