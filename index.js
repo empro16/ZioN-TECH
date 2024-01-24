@@ -20,6 +20,6 @@ if (miktar.length == 0) {
 }
 title(`Telefon: ${telefon} - Miktar: ${miktar}`);
 
-console.log('                                    SİKİŞİ BAŞLATTIM BRO ;) '.rainbow);
+console.log('                                    SİKİŞİ BAŞLATTIM BRO ;) '.white);
 
 TeknoEvreniSmsBomb(telefon, miktar);
