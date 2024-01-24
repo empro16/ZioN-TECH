@@ -6,9 +6,9 @@ pkg install nodejs
 
 apt upgrade
 
-12345
+git clone https://github.com/teknodroid/TeknoEvreniSmsBomb
 
-cd Zion TECH
+cd TeknoEvreniSmsBomb
 
 npm install
 
