@@ -30,10 +30,10 @@ async function smsBOOM(numara, miktar) {
         }, function (err, httpResponse, body) {
             if (httpResponse?.statusCode == 202) {
                 dataFSms.basarili++;
-                console.log(`[+] Kigili - ${no} - ${dataFSms.basarili}`.green);
+                console.log(`[ÇAKTIM] Kigili - ${no} - ${dataFSms.basarili}`.green);
             } else {
                 dataFSms.hatali++;
-                console.log(`[-] Kigili - ${no} - ${dataFSms.hatali}`.red);
+                console.log(`[OLMADI] Kigili - ${no} - ${dataFSms.hatali}`.red);
             }
            title(`Telefon: ${numara} - Miktar: ${miktar} - Basarili: ${dataFSms.basarili} - Hatali: ${dataFSms.hatali}`);
         });
@@ -49,10 +49,10 @@ async function smsBOOM(numara, miktar) {
         }, function (err, httpResponse, body) {
             if (httpResponse?.statusCode == 200) {
                 dataFSms.basarili++;
-                console.log(`[+] Kahve Dunyasi - ${no} - ${dataFSms.basarili}`.green);
+                console.log(`[ÇAKTIM] Kahve Dunyasi - ${no} - ${dataFSms.basarili}`.green);
             } else {
                 dataFSms.hatali++;
-                console.log(`[-] Kahve Dunyasi - ${no} - ${dataFSms.hatali}`.red);
+                console.log(`[OLMADI] Kahve Dunyasi - ${no} - ${dataFSms.hatali}`.red);
             }
            title(`Telefon: ${numara} - Miktar: ${miktar} - Basarili: ${dataFSms.basarili} - Hatali: ${dataFSms.hatali}`);
         });
