@@ -7,7 +7,7 @@ title('Hosgeldiniz');
 
 let telefon = rl.question('Saldırılacak Numara ? : ' .green);
 if (telefon.length != 10) {
-    console.log('Telefon Numarasi 10 Haneli Olmalidir. Ex: 5401234521'.red);
+    console.log('Düzgün Gir AMK Şu Numarayı'.white);
     process.exit(1);
 }
 title('Numara: ' + telefon);
