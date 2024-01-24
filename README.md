@@ -8,7 +8,7 @@ apt upgrade
 
 git clone https://github.com/empro16/ZioN-TECH.git
 
-cd TeknoEvreniSmsBomb
+cd ZioN-TECH
 
 npm install
 
